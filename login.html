@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Sadfah</title>
+
+
+   <!-- Bootstrap link  -->
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+   <!-- font awesom link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- owl-carousel link -->
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+  <!-- rateyo link -->
+  <link rel="stylesheet" href="css/jquery.rateyo.min.css">
+
+  <!-- nice select link -->
+  <link rel="stylesheet" href="css/nice-select.css">
+
+  <!-- WoW link -->
+  <link rel="stylesheet" href="css/animate.css">
+
+  <!-- animate link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+   <!-- custom css file link  -->
+  <!-- <link rel="stylesheet" href="css/style-ltr.css"> -->
+
+</head>
+<body>
+
+<!-- -------- overlay ----------- -->
+
+<div class="overlay-sidemenu"></div>
+
+<!-- -------- overlay ends ----------- -->
+
+<!-- -------- scroll top ----------- -->
+<a href="javascript:void(0)" id="scroll-top">
+  <i class="bi bi-chevron-up"></i>
+</a>
+<!-- -------- scroll top ends ----------- -->
+ 
+<!------------- sign in -------------->
+<section class="sign">
+  <div class="bg-sign  wow animate__fadeInRight animate__slower">
+      <div class="overlay">
+          <div class="sign-text">
+              <img src="sadfa home/logo-w.png" alt="">
+              <p class="mt-5">ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً،دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر .بشكل لا يليق</p>
+          </div>
+      </div>
+  </div>
+  <div class="sign-form wow animate__fadeInLeft animate__slower">
+      <div class="container">
+          <!-- sign -->
+          <form action="" id="login">
+              <h5 class="text-center">تسجيل الدخول</h5>
+              <div class="row mt-5 px-5 gy-1 row-cols-1 ">
+                  <!-- البريد الالكتروني -->
+                  <div class="col">
+                      <label>البريد الالكترونى</label>
+                      <input type="email" class="form-control" placeholder="example@gmail.com" required>
+                  </div>
+                  <!-- كلمة المرور -->
+                  <div class="col">
+                      <label>كلمة المرور</label>
+                      <input type="password" class="form-control" placeholder="*****************" required>
+                  </div>
+                  <div class="col d-flex my-3 justify-content-between">
+                      <div class="form-check">
+                          <label class="form-check-label" for="flexCheckDefault">
+                              تذكر بياناتي
+                              </label>
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      </div>
+                      <a role="button" id="forgotPassBtn" style="font-size:14px ;"> نسيت كلمة المرور ؟</a>
+                  </div>
+              </div>
+              <p class="text-center pt-3" style="font-size:14px ;"> ليس لديك حساب ؟
+                      <a href="register.html" style="color: #EE634E ;">
+                      <b>سجل الان</b>
+                  </a>
+              </p>
+              <div class="text-center my-4">
+                  <a href="index.html" role="button"  class="profile-btn">دخول</a>
+              </div>
+          </form>
+
+      <!-- forgot pass -->
+
+          <!-- your current email -->
+          <form action="" id="currentEmail" class="d-none py-5">
+              <h5 class="text-center mb-5">نسيت كلمة المرور</h5>
+              <div class="row gy-3 justify-content-center text-end">
+                  <div class="col-11">
+                  <label> البريد الالكترونى او رقم الهاتف</label>
+                  <input type="email" class="form-control" placeholder="example@gmail.com" required>
+                  </div>
+              </div>
+              <div class="text-center">
+                  <button type="submit" id="sendCurrentEmail" class="profile-btn" style="margin:20px 0px !important;">ارسال</button>
+              </div>
+          </form>
+
+          <!-- verification code -->
+          <div  id="verifyCode" class="d-none">
+              <h5 class="text-center my-3">نسيت كلمة المرور</h5>
+              <div id="wrapper" >
+                  <div id="dialog">
+                      <span>أدخل رمز التحقق</span>
+                      <div id="form">
+                          <input type="text" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
+                          <input type="text" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
+                          <input type="text" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
+                          <input type="text" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
+                          <button id="sendVerifyCode" class="profile-btn" style="margin:20px 0px !important;">ارسال</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <!-- reset pass -->
+          <form action="" id="resetPass" class="form-login d-none py-5">
+              <h5 class="text-center mb-5">نسيت كلمة المرور</h5>
+              <div class="row justify-content-center gy-3 text-end">
+                  <div class="col-11 ">
+                  <label for="">كلمة المرور</label>
+                  <input class="form-control" type="password">
+                  </div>
+                  <div class="col-11 ">
+                  <label for=""> تأكيد كلمة المرور</label>
+                  <input class="form-control" type="password">
+                  </div>
+              </div>
+              <div class="text-center">
+                  <button type="button" id="sendNewPass" class="profile-btn" style="margin:20px 0px !important;">ارسال</button>
+              </div>
+          </form>
+      </div>
+  </div>
+</section>
+
+<a href="index.html" class="back-home position-absolute" > 
+  <i class="fa-solid fa-arrow-left-long"></i>
+</a>  
+  
+<!-- jQuery script -->
+<script src="js/jquery-3.6.0.min.js"></script>
+
+
+<!-- owl-carousel script -->
+<script src="js/owl.carousel.min.js"></script>
+
+<!-- bootstrap script -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- font awesom script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- rateyo script -->
+<script src="js/jquery.rateyo.min.js"></script>
+
+<!-- nice select script -->
+<script src="js/jquery.nice-select.min.js"></script>
+
+<!-- wow script -->
+<script src="js/wow.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+<script>
+  // ----------- sign in & up ---------
+
+
+let login = document.getElementById("login")
+let forgotPassBtn = document.getElementById("forgotPassBtn")
+
+let currentEmail = document.getElementById("currentEmail")
+let sendCurrentEmail= document.getElementById('sendCurrentEmail')
+
+let verifyCode = document.getElementById('verifyCode')
+let sendVerifyCode = document.getElementById('sendVerifyCode')
+
+let resetPass = document.getElementById('resetPass')
+let sendNewPass = document.getElementById('sendNewPass')
+
+forgotPassBtn.addEventListener("click" , function (e){
+    login.classList.add('d-none');
+    currentEmail.classList.remove('d-none');
+})
+
+sendCurrentEmail.addEventListener("click" , function (e){
+    currentEmail.classList.add('d-none');
+    verifyCode.classList.remove('d-none');
+})
+
+sendVerifyCode.addEventListener("click" , function (e){
+    verifyCode.classList.add('d-none');
+    resetPass.classList.remove('d-none');
+})
+
+sendNewPass.addEventListener("click" , function (e){
+    resetPass.classList.add('d-none');
+    login.classList.remove('d-none');
+})
+
+</script>
+  
+  </body>
+  </html>

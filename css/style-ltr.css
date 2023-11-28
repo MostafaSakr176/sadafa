@@ -1,0 +1,696 @@
+
+body{
+   direction: ltr;
+   overflow: hidden;
+}
+
+.form-select , .form-select:focus{
+    padding: .375rem 2.25rem .375rem .75rem;
+}
+.nice-select ,.nice-select .list li{
+   text-align: left !important;
+   padding-left: 18px;
+   padding-right: 30px;
+}
+.nice-select:after {
+   right: 12px;
+   left: unset;
+}
+.owl-item .card-body{
+   direction: ltr;
+}
+.service-providers .product-item h6{
+   text-align: left;
+}
+
+/* ---------- top-nav ---------- */
+
+
+.top-nav .icons > li{
+   margin: 0 0.8rem 0 0;
+}
+
+.top-nav-user .sub-menu{
+   right: unset;
+   left: 0%;
+}
+.top-nav-user .sub-menu::before{
+   content: "";
+   right: unset;
+   left: 2%;
+}
+.user-image img{
+   margin-left: unset;
+   margin-right: 5px;
+}
+
+.notification-content{
+   text-align: right;
+}
+.notification-content p{
+   text-align:left;
+}
+.top-nav a.btn{
+   margin-left: unset;
+   margin-right: 5px;
+}
+
+.top-nav .top-nav-search > .open-search{
+   position: absolute !important;
+   top: 0;
+   right: unset !important;
+   left: 0 !important;
+}
+.top-nav .top-nav-search form > button{
+   right: unset !important;
+   left: 0;
+}
+.top-nav .top-nav-search form.show input{
+   width: 100%;
+   padding: 8px 10px 8px 35px;
+   border-radius: 25px;
+}
+
+/* -------- top-nav ends-------- */
+
+
+/* -------side-menu-nav------- */
+
+
+.side-menu-nav li::before{
+   content: '';
+   right: unset;
+   left: 0;
+}
+
+/* -------side-menu-nav-ends------- */
+
+
+header .header-content {
+   text-align: left;
+}
+header .header-content .item > .row{
+   flex-direction: row-reverse;
+}
+header .header-content .item .header-img{
+   text-align: start !important;
+}
+
+
+.products .product-item .card-img-top .options{
+   right: unset;
+   left: -55px;
+}
+
+.products .product-item .card-img-top .discount-badge{
+   position: absolute;
+   top: 15px;
+   left: unset;
+   right: 15px;
+}
+.products .product-item:hover .options{
+   right: unset;
+   left: 0px;
+}
+
+
+.product-item .card-img-top .social-icons{
+    right: unset !important;
+    left: -55px;
+}
+.product-item:hover .card-img-top .social-icons{
+   right: unset !important;
+   left: 0px;
+}
+/* --------- services -------- */
+
+.services-container-item {
+   direction: rtl;
+   text-align:left;
+}
+
+.services-content-item {
+   margin-right: 0;
+   margin-left: 30px;
+   padding: 20px 20px 20px 50px;
+}
+.services-content-item-icon {
+   right: unset;
+   left: 0%;
+   transform: translate(-50%, -50%);
+}
+
+/* --------- discount-banner------- */
+
+.discount-banner{
+   direction: rtl;
+}
+
+/* --------- blogs ---------------- */
+
+.blogs .product-item .card-img-top .date-badge{
+   right: unset;
+   left: 15px;
+}
+.blogs .product-item p {
+   margin: 10px 10px 10px 0 ;
+}
+.blogs h5{
+   padding-right: unset;
+   padding-left: 25px;
+}
+.blogs h5::before{
+   right: unset;
+   left: 0;
+}
+
+
+/* --------------- clinics ----------------- */
+
+.main-content{
+   padding: 0 0 0 5%;
+}
+.main-content .heading > span{
+   margin-left: unset;
+   margin-right: 20px;
+}
+.main-content .advantages > ul{
+   padding: 0 0 0 70px;
+}
+.main-content .advantages > ul >li .point{
+   margin-left: unset;
+   margin-right: 20px;
+}
+.package-container .package > ul >li .point{
+    margin-left: unset;
+    margin-right: 20px;
+}
+.main-content .advantages > ul >li >p{
+   margin: 0;
+   text-align:left;
+}
+.nav-pills .nav-link {
+   margin-left: unset;
+   margin-right: 40px;
+}
+.user-comment-container{
+   padding: 20px 20px 20px 0;
+}
+
+/* ----------- sadfa box ------------- */
+
+.sadfa-box-adv-item .time-icon{
+   right: unset;
+   left: 0;
+}
+
+/* ---------------- blogs page ----------------- */
+
+.all-blogs .product-item .card-img-top .date-badge{
+   right: unset;
+   left: 15px;
+}
+.choose-class h5:before{
+   content: "";
+   right: unset;
+   left: 0;
+}
+.choose-class .form-check {
+   padding-left: unset;
+   padding-right: 0;
+}
+.choose-class .form-check .form-check-input {
+   float: left;
+   margin-right: -1em;
+   margin-left: unset;
+}
+.blog-search h5:before{
+   content: "";
+   right: unset;
+   left: 0;
+}
+.choose-class .form-check .form-check-label {
+   margin-left: 2em;
+   margin-right: 0em;
+}
+/* ----------------- blog-details ------------------ */
+
+.blog-details .product-item .card-img-top .date-badge{
+   left: unset;
+   right: 15px;
+}
+.blog-details .product-item p:nth-child(3){
+   padding-right: unset;
+   padding-left: 30px;
+}
+.blog-details .product-item p:nth-child(3)::before{
+   right: unset;
+   left: 0;
+}
+
+/* ------------------ service-providers-page --------------- */
+
+.service-providers-page .search-bar>input{
+   border-radius:40px 0 0 40px;
+}
+.service-providers-page .search-bar> button{
+   border-radius:0 40px 40px 0;
+}
+.service-providers .product-item p {
+   text-align: left;
+}
+
+/* --------------- events --------------- */
+
+.events-page .search-bar>input{
+   border-radius:40px 0 0 40px;
+}
+.events-page .search-bar> button{
+   border-radius:0 40px 40px 0;
+}
+.events-page .nav-pills {
+   margin-right: unset;
+   margin-left: 50px;
+}
+.events-page .nav-pills .nav-link, .events-page .nav-pills .show>.nav-link {
+   margin: 0 0 0 10px;
+}
+.events-page .product-item a{
+   margin-right: unset;
+   margin-left: 15px;
+}
+.events-page .product-item .card-img-top .date-badge {
+   right: 15px;
+   left: unset;
+}
+
+/* --------------- event ---------------- */
+
+
+.item-details-container .price-card div:first-child::after{
+   content: "";
+   border-right: 15px solid var(--light-orange);
+   border-left: 15px solid transparent;
+   border-top: 10px solid transparent;
+   border-bottom: 10px solid transparent;
+   position: absolute;
+   top:50%;
+   right:99%;
+   transform: translateY(-50%);
+}
+.item-details-container .price-card div:last-child{
+   border-radius: 0 15px 15px 0;
+}
+.item-details-container .side-content .price-card div:first-child::after{
+   right:unset;
+   left:99%;
+   border-right: 15px solid transparent;
+   border-left: 15px solid #fff;
+   border-top: 10px solid transparent;
+   border-bottom: 10px solid transparent;
+}
+.product-item .card-img-top .date-badge{
+   position: absolute;
+   top: 15px;
+   right: unset;
+   left: 15px;
+}
+
+
+/* -------- shop pages ------------ */
+
+
+.shop-section-side h6{
+   border-right: 0px solid var(--light-orange);
+   border-left: 4px solid var(--light-orange);
+}
+.shop-section-side .form-check{
+   padding-right: unset;
+   padding-left: 15px;
+}
+.shop-section-side .form-check .form-check-input {
+   float: right;
+   margin-left: unset;
+   margin-right: -0.5em;
+}
+.shop-section .filter-bar .nav-pills .nav-link, .shop-section .filter-bar .nav-pills .show>.nav-link {
+   margin: 0 10px 0 0;
+}
+.shop-section .filter-bar .nice-select{
+   margin-right: unset;
+   margin-left: 20px;
+}
+.shop-section .list .product-item .card-body{
+   text-align: left;
+}
+
+
+
+/* ------------ sections page ------------ */
+
+.animals-section .animal-section{
+   height: 100%;
+   text-align: center;
+   color: var(--dark);
+}
+.animals-section .animal-section .overlay{
+   position: absolute;
+   top: 0;
+   right:  0;
+   bottom: 0;
+   left: 0;
+   visibility: hidden;
+   opacity:0;
+   background-color: #000;
+   z-index: 2;
+   transition: all 0.3s;
+}
+.animals-section .animal-section:hover .overlay{
+   visibility: visible;
+   opacity:0.5;
+}
+.animals-section .animal-section .animal-img{
+   height: 20rem;
+   margin-bottom: 20px;
+   position: relative;
+}
+.animals-section .animal-section .animal-img img{
+   height: 100%;
+}
+.sections-tabs{
+   border-radius: 5px;
+   overflow: hidden;
+}
+.sections-tabs li{
+   width: 50%;
+}
+.sections-tabs li .nav-link{
+   width: 100%;
+   text-align: center;
+   border-bottom: 0px;
+   background: var(--ultra-lite);
+}
+.sections-tabs li .nav-link.active{
+   width: 100%;
+   background-color : var(--light-orange);
+   color: var(--white);
+   border-bottom: 0px;
+   text-align: center;
+}
+.about-animal-content h5{
+   padding-right: unset;
+   padding-left: 35px;
+}
+.about-animal-content h5::before{
+   content: "";
+   right:unset;
+   left:0;
+}
+.about-animal-content p{
+   padding-right: unset;
+   padding-left: 20px;
+}
+
+
+
+/* ------------ reset page ---------------- */
+
+.reset-container .re-buy  {
+   margin-left: 0;
+   margin-right: 50px;
+}
+
+/* ---------- merchant ---------- */
+
+
+.merchant-section .filter-bar .nav-pills .nav-link, .merchant-section .filter-bar .nav-pills .show>.nav-link {
+   margin: 0 10px 0 0;
+}
+.merchant-section .filter-bar .nice-select{
+   margin-right: 0;
+   margin-left: 20px;
+}
+
+
+/* -------------- product details -------------------- */
+
+.custom-radio-container .custom-form-check .custom-form-check-label{
+   margin: 0 20px 0 0;
+}
+
+button.add-to-cart{
+   margin-left: unset;
+   margin-right: 20px;
+}
+button.add-to-cart.adding::after{
+   right: unset;
+   left: 47%;
+}
+
+/* ------------------ cart page ---------------- */
+
+ #wizard .step4.active::after, #wizard .step4.finish::after {
+   content: "";
+   width: 50%;
+   left: unset;
+   right: 50%;
+ }
+ #wizard .step.active::before, #wizard .step.finish::before {
+   right: unset;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+.orders-cart .product-item .remove-product{
+   left: unset;
+   right: 30px;
+}
+.orders-cart .product-item .cart-product-price{
+   left: unset;
+   right: 15px;
+}
+.orders-cart .product-item .card-body{
+text-align: left;
+padding-right: unset;
+padding-left: 1rem;
+}
+.orders-cart .product-item .card-body .product-quantity{
+   text-align: right;
+}
+.orders-cart .order-info table tr td:first-child{
+   margin-left: unset;
+   margin-right: 50px;
+}
+.orders-cart .order-info .continue-shopping:hover i{
+   margin-right: unset;
+   margin-left: 10px;
+}
+.shipping-address .form-check-label a{
+   margin-right: unset;
+   margin-left: 20px;
+}
+.shipping-address .form-check {
+   padding-right: unset;
+   padding-left: 1.5em;
+}
+.shipping-address .form-check .form-check-input {
+   float: left;
+   margin-left: -1.5em;
+   margin-right: 10px;
+}
+.shipping-payment .form-check {
+   padding-right: unset;
+   padding-left: 1.5em;
+}
+.shipping-payment .form-check .form-check-input {
+   float: left;
+   margin-left: -1.5em;
+   margin-right: 10px;
+}
+
+
+
+/* ------------------------------------ footer --------------------------------- */
+
+footer .subscribe .fa-envelope{
+   right: unset;
+   left: 35px;
+}
+footer .subscribe .fa-paper-plane{
+   left: unset;
+   right: 35px;
+}
+footer li svg{
+   margin-right: 10px;
+   margin-left: 0px;
+}
+
+/* ----------------------------------- sign&register pages --------------------------------------- */
+
+.sign .sign-form{
+   left: unset;
+   right: 0%;
+}
+.sign .sign-form .form-check .form-check-input {
+   float: left !important;
+   margin-left: -1.5em !important;
+   margin-right: 0%  !important;
+}
+
+/* ----------------------------- order page ----------------------===--- */
+
+.multi-steps > li:after {
+   right: unset;
+   left: 50%;
+}
+
+/* ---------- firstStep --------- */
+
+
+#order-modal .wrapper {
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 1.5rem;
+}
+
+.datepicker {
+   direction: ltr;
+}
+#order-modal .shipping-payment .form-check{
+   justify-content: start;
+}
+#order-modal .shipping-payment .form-check .form-check-input{
+   margin-left:0;
+}
+#order-modal .shipping-payment .form-check .form-check-label{
+   padding: 0 0 0 15px;
+}
+
+
+/* ----------------------------- profile page ----------------------===--- */
+
+/* profile nav col */
+.profile .row .nav button.nav-link i{
+   right: unset;
+   left: 7.5%;
+}
+.profile .profile-data .tab-content .tab-pane form input+.bi-pencil-fill ,.user-addr+.bi-pencil-fill, input+.bi-camera-fill {
+   left: unset;
+   right: 5%;
+}
+
+.profile .profile-data .tab-content .tab-pane .edit-animal{
+   transform: translateX(50px);
+}
+.profile .pe-4{
+   padding-left: 1.5rem !important;
+   padding-right: 0 !important;
+}
+.profile .ms-2 {
+   margin-right: 0.5rem!important;
+   margin-left: 0 !important;
+}
+
+ /* ----------------- الملف البيطري --------------- */
+ 
+.profile .profile-data .tab-content .tab-pane .profile-file .animal-file .animal-data .animal-idintity img{
+   margin-left: 0;
+   margin-right: 10px;
+}
+
+.profile .profile-data .tab-content .tab-pane  .animal-file:hover .edit-animal{
+   transform: translateX(-12px);
+}
+
+.profile .profile-data .tab-content .tab-pane  .edit-animal i{
+   margin-right: 10px;
+}
+
+/* ----------------------------------- contactUs page --------------------------------------- */
+.contactUs .contact-data .bg-main-color{
+   border-radius: 20px 0 0 20px;
+}
+.contactUs .contact-data .contact-info a{
+   margin-right: 0;
+   margin-left: 10px;
+}
+.contactUs .contact-data .contact-info ul li i{
+   margin-left: 0;
+   margin-right: 14px;
+}
+
+
+/* ----------------------------------- sign&register pages --------------------------------------- */
+
+.sign .sign-form{
+   left: unset;
+   right: 0%;
+   transform: translateX(calc(-15%));
+   box-shadow: 25px -25px 50px #0000000D;
+}
+
+.sign .bg-sign{
+   border-radius: 0px 15px 15px 0px;
+   overflow: hidden;
+}
+.sign .sign-form .form-check .form-check-input {
+   float: left !important;
+   margin-left: -1.5em !important;
+   margin-right: 0%  !important;
+}
+.back-home{
+   top:25px ; 
+   right:25px ;
+   left: auto;
+   transform: rotate(180deg);
+}
+
+/* ----------- .recently-arrived ------------- */
+
+.recently-arrived.owl-carousel .owl-nav{
+   left: unset;
+   right: 0;
+}
+
+/* --------------------- media ------------------------- */
+
+
+
+@media (max-width:991.8px){
+   .main-content .advantages > ul {
+      padding: 0 0 0 0;
+  }
+}
+
+@media (max-width:768px){
+   .top-nav-user .sub-menu {
+      left: unset;
+      right: -60%;
+   }
+   .top-nav-user .sub-menu::before {
+      right: unset;
+      left: 17%;
+   }
+   .events-page .nav-pills {
+      margin-right: unset;
+      margin-left: 0px;
+   }
+   .sign-form{
+      left: unset !important;
+      right: 5% !important;
+   }
+   .orders-cart .product-item .remove-product {
+      right: unset;
+      left: 30px;
+   }
+}
+
+
+@media (max-width:576px){
+   .top-nav .icons > li {
+      margin: 0 0.4rem 0 0;
+   }
+   .top-nav-user .sub-menu::before {
+      right: unset;
+      left: 25%;
+   }
+}
