@@ -58,6 +58,11 @@ $(document).ready(function () {
     $(".overlay-sidemenu").removeClass("show");
     $("body").css("overflow","unset");
   })
+  $(".overlay-sidemenu").click(function(){
+    $(".side-menu-nav").removeClass("show");
+    $(".overlay-sidemenu").removeClass("show");
+    $("body").css("overflow","unset");
+  })
 
 
   // classification side menu
