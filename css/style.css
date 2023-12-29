@@ -3082,6 +3082,7 @@ border-color: var(--main-color);
 .product-quantity input {
    text-align: center;
    width: 30px;
+      background-color: transparent;
 }
 .product-quantity .qtyplus.plus{
   width: 30px;
