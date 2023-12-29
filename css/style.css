@@ -762,7 +762,7 @@ img{
 }
 .toggle-classification-shop-section-side-menu{
    position: fixed;
-   top: 25%;
+   top: 35%;
    right: 0%;
    z-index: 10;
    cursor:pointer;
