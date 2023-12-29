@@ -191,7 +191,7 @@
 <!-- --- classification-shop-section-side ---- -->
 <a href="javascript:void(0)" class="toggle-classification-shop-section-side-menu"><i class="bi bi-funnel-fill"></i></a>
 
-<div class="classification-shop-section-side-menu">
+<div class="classification-shop-section-side-menu home-classification-shop-section-side-menu">
     <a href="javascript:void(0)" class="close-classification-shop-section-side-menu"><i class="bi bi-x-lg"></i></a>
 
   <div class="shop-section-side">
@@ -1691,7 +1691,49 @@
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
 
-   <script>
+<script>
+
+$(document).ready(function () {
+
+// ---- side range input -------
+
+var home_side_parent = document.querySelector(" .home-classification-shop-section-side-menu .range-price");
+  if(!home_side_parent) return;
+
+  var 
+  home_side_rangeS = home_side_parent.querySelectorAll(".range-price .range-input"),
+  home_side_numberS = home_side_parent.querySelectorAll(".range-price .number-input");
+
+  home_side_rangeS.forEach(function(el) {
+    el.oninput = function() {
+      var home_side_slide1 = parseFloat(home_side_rangeS[0].value),
+        home_side_slide2 = parseFloat(home_side_rangeS[1].value);
+
+      if (home_side_slide1 > home_side_slide2) {
+        [home_side_slide1, home_side_slide2] = [home_side_slide2, home_side_slide1];
+      }
+
+      home_side_numberS[0].value = home_side_slide1;
+      home_side_numberS[1].value = home_side_slide2;
+    }
+  });
+
+  home_side_numberS.forEach(function(el) {
+    el.oninput = function() {
+      var home_side_number1 = parseFloat(home_side_numberS[0].value),
+        home_side_number2 = parseFloat(home_side_numberS[1].value);
+
+      if (home_side_number1 > home_side_number2) {
+        var home_side_tmp = home_side_number1;
+        home_side_numberS[0].value = home_side_number2;
+        home_side_numberS[1].value = home_side_tmp;
+      }
+
+      home_side_rangeS[0].value = home_side_number1;
+      home_side_rangeS[1].value = home_side_number2;
+
+    }
+  });
 
 var btn = $('#scroll-top');
 
@@ -1707,6 +1749,14 @@ btn.on('click', function(e) {
   e.preventDefault();
   $('html, body').animate({scrollTop:0}, '300');
 });
+
+
+
+
+})
+      
+
+  
 
 
 </script>
