@@ -60,10 +60,9 @@ $(document).ready(function () {
   })
   $(".overlay-sidemenu").click(function(){
     $(".side-menu-nav").removeClass("show");
-    $(".classification-shop-section-side-menu").removeClass("show");
-    $(".side-menu-classification").removeClass("show");
     $(".overlay-sidemenu").removeClass("show");
-	  
+    $(".classification-shop-section-side-menu").removeClass("show");
+    
     $("body").css("overflow","unset");
   })
 
@@ -235,9 +234,8 @@ verify.on('click', '#form input', onFocus);
     var side_parent = document.querySelector(".classification-shop-section-side-menu .range-price");
     if(!side_parent) return;
   
-    var
-    side_rangeS = side_parent.querySelectorAll(".classification-shop-section-side-menu .range-input"),
-      side_numberS = side_parent.querySelectorAll(".classification-shop-section-side-menu .number-input");
+    var side_rangeS = side_parent.querySelectorAll(".classification-shop-section-side-menu .range-input"),
+    side_numberS = side_parent.querySelectorAll(".classification-shop-section-side-menu .number-input");
   
     side_rangeS.forEach(function(el) {
       el.oninput = function() {
@@ -269,6 +267,7 @@ verify.on('click', '#form input', onFocus);
   
       }
     });
+
 
 
 
