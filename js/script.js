@@ -60,7 +60,10 @@ $(document).ready(function () {
   })
   $(".overlay-sidemenu").click(function(){
     $(".side-menu-nav").removeClass("show");
+    $(".classification-shop-section-side-menu").removeClass("show");
+    $(".side-menu-classification").removeClass("show");
     $(".overlay-sidemenu").removeClass("show");
+	  
     $("body").css("overflow","unset");
   })
 
