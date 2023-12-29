@@ -328,14 +328,19 @@ img{
    margin: 0 0 0 0.8rem;
 }
 .top-nav .icons > li > a{
-   color: var(--white);
-   border-radius: 50%;
-   padding: 6px 10px;
-   background-color: transparent;
-   overflow: hidden;
-   transition: all 0.3s;
-   position: relative;
-   font-size: 22px;
+  color: var(--white);
+  border-radius: 50%;
+  padding: 6px;
+  background-color: transparent;
+  transition: all 0.3s;
+  position: relative;
+  font-size: 22px;
+  font-size: 22px !important;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .top-nav .icons > li > a:hover{
    color: var(--main-color);
@@ -527,7 +532,6 @@ img{
    right: 0 !important;
    z-index: 1;
    font-size: 20px !important;
-   padding: 4px 10px !important;
 }
 .top-nav .top-nav-search form{
    position: relative;
@@ -3076,10 +3080,12 @@ border-color: var(--main-color);
    width: 30px;
 }
 .product-quantity .qtyplus.plus{
-   width: 30px;
-   height: 30px;
-   padding: 4px 7px;
-   font-size: 14px;
+  width: 30px;
+  height: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 22px;
    color: var(--white);
    background: var(--light-orange);
    border-radius: 50%;
@@ -3088,8 +3094,11 @@ border-color: var(--main-color);
 .product-quantity .qtyminus.minus{
    width: 30px;
    height: 30px;
-   padding: 4px 7px;
-   font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   padding: 6px;
+   font-size: 22px;
    color: #999;
    background: var(--white);
    border-radius: 50%;
@@ -3346,6 +3355,9 @@ padding-right: 1rem;
    text-align: left;
    position: relative;
    z-index: 3;
+   display: flex;
+   align-items: center;
+   justify-content: end;
 }
 .orders-cart .order-info{
    padding: 30px 15px;
@@ -3699,6 +3711,9 @@ footer .subscribe .fa-paper-plane{
    position: absolute;
    top: 15px;
    left: 35px;
+}
+footer .subscribe > div{
+    min-width: 300px !important;
 }
 footer ul{
    list-style: none;
